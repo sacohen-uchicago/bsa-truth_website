@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html> 
+
+<head>
+<title>Bellator | Sapien | Agricola </title>
+
+<meta charset="utf-8">
+
+<style>
+body {
+  margin: 75px;
+  background-color: #D3D3D3;
+}
+.headshot {
+  width: 300px;
+  height: auto;
+}
+.founders-container {
+  display: flex;
+  align-items: center;
+  margin: 30px;
+        }
+.founders-info {
+margin-left: 20px;
+flex-grow: 1;
+}
+.container {
+  color: Blue; 
+  font-size: 75px; 
+  text-align: center;
+  margin: 50px;
+}
+h1 {
+  font-size: 100px;
+  text-align: center;
+  color: blue;
+  margin-bottom: 100px;
+}
+.linkedin {
+  color: blue;
+  font-size: 20px;
+  margin: 20px;
+}
+footer {
+  text-align: center;
+}
+a {
+  text-align: middle;
+  text-decoration: none;
+  color: blue;
+}
+h2 {
+  font-size: 40px;
+}
+p {
+  font-size: 25px;
+  text-align: justify;
+}
+</style>
+</head>
+
+<body>
+<h1>Founders</h1>
+
+<section class="founders-container">
+<%= image_tag 'seth-headshot.JPG', alt: 'Seths Headshot', class: 'headshot' %>
+
+<div class="founders-info">
+<h2>Seth Alan Cohen</h2>
+<p>
+Seth grew-up in the north suburbs of Chicago, and joined the United States Marine Corps in 2016.  He served with 2d Tank
+Battalion 2d Marine Division from 2016 to 2020.  After four years, he was honorably discharged from the Marine Corps and immediately
+enrolled in undergraduate studies at the University of Chicago.  After graduating undergrad with a BA in economics, he subsequently enrolled at The 
+University of Chicago Booth School of Business as an MBA candidate and Accelerated Booth Scholar.  Seth lives with his wife and child in the north
+suburbs of Chicago.
+</p>
+<a href="https://www.linkedin.com/in/sacohen97/" class="linkedin">Seth's LinkedIn</a>
+</div>
+
+
+</section>
+
+<section class="founders-container">
+<%= image_tag 'luke-headshot.jpeg', alt: 'Lukes Headshot', class: 'headshot' %>
+<div class="founders-info">
+<h2>Luke O'Connor Yelenick</h2>
+ <p>
+Luke grew-up in St. Louis before enlisting in the United States Army.  He served in the Army from 2015 to 2021, and
+as a US Army special operator with the 75th Ranger Regiment from 2016 to 2021.  After being honorably discharged, he applied and was 
+accepted to the University of Chicago as an undergraduate student.  He will be graduating in 2025 with his BA in Economics, and will be continuing
+his studies at The Chicago Booth School of Business as an MBA candidate and Accelerated Booth Scholar.  He lives with his girlfriend
+in the city of Chicago.
+</p>
+<a href="https://www.linkedin.com/in/luke-yelenick-95a97317b/" class="linkedin">Luke's LinkedIn</a>
+</div>
+
+</section>
+
+</body>
+
+<div class="container">
+<a href="/home" style="border: 1px solid black; padding: 5px">Home</a>
+<a href="/contact" style="border: 1px solid black; padding: 5px">Contact</a>
+</div>
+
+<footer>BSA LLC, 2024</footer>
+</html>
