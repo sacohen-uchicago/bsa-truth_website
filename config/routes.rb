@@ -1,10 +1,17 @@
 Rails.application.routes.draw do
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
+  # Define the root path of the application
   root 'pages#home'
-  get("/home", { :controller => "pages", :action => "home" })
-  get("/founders", { :controller => "pages", :action => "founders" })
-  get("/contact", { :controller => "pages", :action => "contact" })
-  get("/sign_in", { :controller => "pages", :action => "sign_in" })
-  # Defines the root path route ("/")
-  # root "articles#index"
+
+  # Define other routes more succinctly
+  get 'home', to: 'pages#home'
+  get 'founders', to: 'pages#founders'
+  get 'contact', to: 'pages#contact'
+
+  # It's common to have a custom sign-in page if you want to override Devise's default
+  # However, if you're using Devise, you might not need a custom route at all
+  # because Devise already provides 'new_user_session_path' and other routes.
+
+  # If you do need a custom sign-in page:
+  get 'sign_in', to: 'pages#sign_in'
 end
+

@@ -1,0 +1,45 @@
+/* app/assets/stylesheets/custom.css */
+h1 {
+  color: Blue;
+  font-size: 100px;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 7%;
+}
+
+.bsa-logo {
+  width: 300px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.container {
+  color: Blue;
+  font-size: 75px;
+  text-align: center;
+  margin: 50px;
+}
+
+.nav-link {
+  display: inline-block;
+  border: 1px solid black;
+  padding: 5px;
+  margin: 0 25px;
+  text-decoration: none;
+  color: blue;
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+}
+
+body {
+  margin: 75px;
+  background-color: #D3D3D3;
+}

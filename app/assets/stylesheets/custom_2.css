@@ -1,0 +1,43 @@
+body {
+  margin: 75px;
+  background-color: #D3D3D3;
+}
+
+h1 {
+  font-size: 100px;
+  text-align: center;
+  color: blue;
+  margin-bottom: 100px;
+}
+
+.container {
+  color: Blue;
+  font-size: 75px;
+  text-align: center;
+  margin: 50px;
+}
+
+footer {
+  text-align: center;
+}
+
+.nav-link {
+  padding-left: 50px;
+  padding-right: 50px;
+  text-decoration: none;
+  color: blue;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+p {
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 8%;
+}
+
+.email-link {
+  color: blue;
+  text-decoration: underline;
+}
+

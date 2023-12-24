@@ -2,61 +2,30 @@
 <html>
 
 <head>
-
-<title>Bellator | Sapien | Agricola </title>
-
-<meta charset="utf-8">
-
-<style>
-body {
-  margin: 75px;
-  background-color: #D3D3D3;
-}
-h1 {
-  font-size: 100px;
-  text-align: center;
-  color: blue;
-  margin-bottom: 100px;
-}
-.container {
-  color: Blue; 
-  font-size: 75px; 
-  text-align: center;
-  margin: 50px;
-}
-footer {
-  text-align: center;
-}
-a {
-  text-align: middle;
-  padding-left: 50px;
-  padding-right: 50px;
-  text-decoration: none;
-  color: blue;
-}
-p {
-  font-size: 50px;
-  text-align: center;
-  margin-bottom: 8%;
-}
-</style>
-
+  <title>Bellator | Sapien | Agricola</title>
+  <meta charset="utf-8">
+  <%= stylesheet_link_tag 'custom_2', media: 'all', 'data-turbolinks-track': 'reload' %>
 </head>
+
 <body>
+  <header>
+    <h1>Contact</h1>
+  </header>
 
-<h1>Contact</h1>
+  <main>
+    <p>
+      You can email Seth & Luke at <a href="mailto:bsatruth@bsa.com" class="email-link">bsatruth@bsa.com</a>. Additionally, 
+      you can message them on their respective LinkedIn accounts. Thank you!
+    </p>
+  </main>
 
-<p>
-You can email Seth & Luke at <strong>bsatruth@bsa.com</strong>.  Additionally, you can message them on their respective
-LinkedIn accounts.  Thank you!
-</p>
+  <nav class="container">
+    <%= link_to 'Home', home_path, class: 'nav-link' %>
+   <%= link_to 'Sign-in', '/sign_in', class: 'nav-link' %>
+    <%= link_to 'Contact', contact_path, class: 'nav-link' %>
+  </nav>
 
+  <footer>BSA Truth LLC, 2024</footer>
 </body>
-<div class="container">
-<a href="/home" style="border: 1px solid black; padding: 5px">Home</a>
-<a href="/founders" style="border: 1px solid black; padding: 5px">Founders</a>
-<a href="/sign_in" style="border: 1px solid black; padding: 5px">Sign-in</a>
-</div>
 
-<footer>BSA LLC, 2024</footer>
 </html>
