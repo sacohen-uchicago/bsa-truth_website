@@ -10,4 +10,8 @@ class PagesController < ApplicationController
   def contact
     render({ :template => "page_template/contact" })
   end
+
+  def sign_in
+    render({ :template => "page_template/sign_in" })
+  end 
 end
