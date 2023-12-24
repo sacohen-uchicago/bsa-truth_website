@@ -2,66 +2,31 @@
 <html> 
 
 <head>
-<title>Bellator | Sapien | Agricola </title>
-
-<meta charset="utf-8">
-
-<style>
-h1 {
-color: Blue; 
-font-size: 100px; 
-text-align: center
-}
-h2 {
-text-align: center; 
-font-size: 50px;
-margin-bottom: 7%;
-}
-.bsa-logo{
-  width: 300px;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-  text-align: center;
-}
-.container {
-  color: Blue; 
-  font-size: 75px; 
-  text-align: center;
-  margin: 50px;
-  text-align: center;
-}
-a {
-  text-align: middle;
-  padding-left: 50px;
-  padding-right: 50px;
-  text-decoration: none;
-  color: blue;
-}
-footer {
-  text-align: center;
-}
-body {
-  margin: 75px;
-  background-color: #D3D3D3;
-}
-</style>
+  <title>Bellator | Sapien | Agricola</title>
+  <meta charset="utf-8">
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
+  <%= stylesheet_link_tag 'custom_3', media: 'all', 'data-turbolinks-track': 'reload' %>
 </head>
 
 <body>
-<h1>Sign-in</h1>
 
-<p>
+  <header>
+    <h1>Sign-in</h1>
+  </header>
 
-</p>
+  <main>
+    <!-- Your main content will go here -->
+    <!-- For example, a sign-in form or other content related to the sign-in page -->
+  </main>
+
+  <nav class="container">
+    <%= link_to 'Home', home_path, class: 'nav-link' %>
+   <%= link_to 'Sign-in', '/sign_in', class: 'nav-link' %>
+    <%= link_to 'Contact', contact_path, class: 'nav-link' %>
+  </nav>
+
+  <footer>BSA Truth LLC, 2024</footer>
 
 </body>
-
-<div class="container">
-<a href="/home" style="border: 1px solid black; padding: 5px">Home</a>
-<a href="/founders" style="border: 1px solid black; padding: 5px">Founders</a>
-<a href="/contact" style="border: 1px solid black; padding: 5px">Contact</a>
-</div>
-
-<footer>BSA Truth LLC, 2024</footer>
 </html>

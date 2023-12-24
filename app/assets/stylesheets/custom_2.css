@@ -11,23 +11,20 @@ h1 {
 }
 
 .container {
-  color: Blue;
   font-size: 75px;
-  text-align: center;
-  margin: 50px;
-}
-
-footer {
-  text-align: center;
+  display: flex; /* Apply flex layout */
+  justify-content: center; /* Center the flex items */
+  gap: 50px; /* Create a gap between items */
+  flex-wrap: wrap; /* Allow items to wrap to a new line if necessary */
+  margin: 50px auto; /* Center the container */
 }
 
 .nav-link {
-  padding-left: 50px;
-  padding-right: 50px;
+  border: 1px solid black;
+  padding: 5px 20px; /* Apply padding to both sides */
   text-decoration: none;
   color: blue;
-  border: 1px solid black;
-  padding: 5px;
+  white-space: nowrap; /* Prevent the text from wrapping */
 }
 
 p {
@@ -41,3 +38,7 @@ p {
   text-decoration: underline;
 }
 
+footer {
+  text-align: center;
+  margin-top: 50px; /* Space above footer */
+}

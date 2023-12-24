@@ -1,0 +1,35 @@
+body {
+  margin: 75px;
+  background-color: #D3D3D3;
+}
+
+h1, .container, a {
+  color: blue;
+  text-align: center;
+}
+
+h1 {
+  font-size: 100px;
+}
+
+.container {
+  font-size: 75px;
+  text-align: center;
+  margin: 50px auto; /* Center the container */
+  display: flex; /* Use flexbox to layout links */
+  justify-content: center; /* Center flex items horizontally */
+  gap: 50px; /* Add space between flex items */
+}
+
+.nav-link {
+  border: 1px solid black;
+  padding: 5px;
+  text-decoration: none;
+  color: blue;
+  white-space: nowrap; /* Prevent text from wrapping */
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px; /* Add space above the footer */
+}
