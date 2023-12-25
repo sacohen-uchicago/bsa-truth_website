@@ -19,6 +19,7 @@ h1 {
   display: flex; /* Use flexbox to layout links */
   justify-content: center; /* Center flex items horizontally */
   gap: 50px; /* Add space between flex items */
+  flex-wrap: wrap; /* Allow items to wrap to a new line if necessary */
 }
 
 .nav-link {
