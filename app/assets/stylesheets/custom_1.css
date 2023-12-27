@@ -5,8 +5,12 @@ body {
 }
 
 .headshot {
-  width: 300px;
+
+   width: 300px;
   height: auto;
+
+    object-fit: cover; /* This will cover the area without stretching the image */
+    border-radius: 5%; /* Optional: if you want rounded images */  
 }
 
 .nav-link {
