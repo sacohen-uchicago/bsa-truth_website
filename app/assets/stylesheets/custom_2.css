@@ -33,6 +33,7 @@ p {
 footer {
   text-align: center;
   margin-top: 50px; /* Space above footer */
+  color: darkred; 
 }
 
 .nav-link {

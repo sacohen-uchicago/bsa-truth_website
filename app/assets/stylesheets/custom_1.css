@@ -53,10 +53,12 @@ h1 {
 
 footer {
   text-align: center;
+  color: darkred; 
 }
 
 h2 {
   font-size: 40px;
+  }
 }
 
 p {
