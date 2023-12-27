@@ -16,7 +16,16 @@
   </header>
 
   <main>
+  <div>
+<% if current_user.present? %>
+  <a href="/users/edit">Edit profile</a>
 
+  <a href="/users/sign_out">Sign out</a>
+<% else %>
+  <a href="/users/sign_up">Sign up</a>
+  <a href="/users/sign_in">Sign in</a>
+<% end %>
+</div>
   </main>
 
   <nav class="container">
