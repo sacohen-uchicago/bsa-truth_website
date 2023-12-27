@@ -7,7 +7,7 @@ Rails.application.routes.draw do
   get 'home', to: 'pages#home'
   get 'founders', to: 'pages#founders'
   get 'contact', to: 'pages#contact'
-  get 'blog', to: 'pages#blog'
+  get 'post', to: 'pages#post'
 
   # It's common to have a custom sign-in page if you want to override Devise's default
   # However, if you're using Devise, you might not need a custom route at all

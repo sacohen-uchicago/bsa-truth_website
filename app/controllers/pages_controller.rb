@@ -18,7 +18,7 @@ class PagesController < ApplicationController
     render({ :template => "page_template/add_post" })
   end 
 
-  def blog
-    render ({ :template => "page_template/blog" })
+  def post
+    render ({ :template => "page_template/post" })
   end 
 end
