@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   # Define the root path of the application
   root 'pages#home'
 
