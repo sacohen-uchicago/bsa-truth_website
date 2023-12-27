@@ -9,6 +9,14 @@ body {
   height: auto;
 }
 
+.nav-link {
+  display: inline-block;
+  border: 1px solid black;
+  margin: 0 25px;
+  text-decoration: none;
+  color: blue;
+}
+
 .founders-container {
   display: flex;
   align-items: center;
@@ -45,15 +53,6 @@ h1 {
 
 footer {
   text-align: center;
-}
-
-.nav-link {
-  display: inline-block;
-  border: 1px solid black;
-  padding: 5px;
-  margin: 0 25px;
-  text-decoration: none;
-  color: blue;
 }
 
 h2 {

@@ -8,6 +8,15 @@ h1, .container, a {
   text-align: center;
 }
 
+.nav-link {
+  display: inline-block;
+  border: 1px solid black;
+  padding: 5px;
+  margin: 0 25px;
+  text-decoration: none;
+  color: blue;
+}
+
 h1 {
   font-size: 100px;
 }
@@ -24,7 +33,6 @@ h1 {
 
 .nav-link {
   border: 1px solid black;
-  padding: 5px;
   text-decoration: none;
   color: blue;
   white-space: nowrap; /* Prevent text from wrapping */

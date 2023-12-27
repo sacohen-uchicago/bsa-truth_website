@@ -19,14 +19,6 @@ h1 {
   margin: 50px auto; /* Center the container */
 }
 
-.nav-link {
-  border: 1px solid black;
-  padding: 5px 20px; /* Apply padding to both sides */
-  text-decoration: none;
-  color: blue;
-  white-space: nowrap; /* Prevent the text from wrapping */
-}
-
 p {
   font-size: 50px;
   text-align: center;
@@ -41,4 +33,12 @@ p {
 footer {
   text-align: center;
   margin-top: 50px; /* Space above footer */
+}
+
+.nav-link {
+  display: inline-block;
+  border: 1px solid black;
+  margin: 0 25px;
+  text-decoration: none;
+  color: blue;
 }

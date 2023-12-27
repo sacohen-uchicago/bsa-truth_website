@@ -12,6 +12,14 @@ h1 {
   font-size: 100px;
 }
 
+.nav-link {
+  display: inline-block;
+  border: 1px solid black;
+  margin: 0 25px;
+  text-decoration: none;
+  color: blue;
+}
+
 .container {
   font-size: 75px;
   text-align: center;
@@ -20,14 +28,6 @@ h1 {
   justify-content: center; /* Center flex items horizontally */
   gap: 50px; /* Add space between flex items */
   flex-wrap: wrap; /* Allow items to wrap to a new line if necessary */
-}
-
-.nav-link {
-  border: 1px solid black;
-  padding: 5px;
-  text-decoration: none;
-  color: blue;
-  white-space: nowrap; /* Prevent text from wrapping */
 }
 
 footer {
