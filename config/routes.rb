@@ -14,5 +14,5 @@ Rails.application.routes.draw do
   # because Devise already provides 'new_user_session_path' and other routes.
 
   # If you do need a custom sign-in page:
-  get 'sign_in', to: 'pages#sign_in'
+  get 'add_post', to: 'pages#add_post'
 end

@@ -14,8 +14,8 @@ class PagesController < ApplicationController
     render({ :template => "page_template/contact" })
   end
 
-  def sign_in
-    render({ :template => "page_template/sign_in" })
+  def add_post
+    render({ :template => "page_template/add_post" })
   end 
 
   def blog
