@@ -6,6 +6,7 @@
   <%= csrf_meta_tags %>
   <%= csp_meta_tag %>
   <%= stylesheet_link_tag 'custom_1', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
   <!-- Add other JavaScript packs if needed -->
 </head>
 
@@ -28,7 +29,10 @@
       as an MBA candidate and Accelerated Booth Scholar.  Seth lives with his wife and child in the north suburbs of 
       Chicago.
     </p>
-    <%= link_to "Seth's LinkedIn", "https://www.linkedin.com/in/sacohen97/", class: 'linkedin' %>
+    <!-- <%= link_to "Seth's LinkedIn", "https://www.linkedin.com/in/sacohen97/", class: 'linkedin' %> -->
+    <a href="https://www.linkedin.com/in/sacohen97" class="linkedin-button">
+    <i class="fab fa-linkedin"></i> Seth's LinkedIn
+    </a>  
   </div>
 </section>
 
@@ -44,13 +48,16 @@
       graduating in 2025 with his BA in economics, and will be continuing his studies at The Chicago Booth School of 
       Business as an MBA candidate and Accelerated Booth Scholar.  He lives with his girlfriend in the city of Chicago.
     </p>
-    <%= link_to "Luke's LinkedIn", "https://www.linkedin.com/in/luke-yelenick-95a97317b/", class: 'linkedin' %>
+    <!-- <%= link_to "Luke's LinkedIn", "https://www.linkedin.com/in/luke-yelenick-95a97317b/", class: 'linkedin' %> -->
+     <a href="https://www.linkedin.com/in/luke-yelenick-95a97317b" class="linkedin-button">
+    <i class="fab fa-linkedin"></i> Luke's LinkedIn
+    </a> 
   </div>
 </section>
 
-  <main>
+  <!-- <main>
     <%= yield %>
-  </main>
+  </main> -->
   
   <footer>BSA Truth LLC, 2024</footer>
 </body>
