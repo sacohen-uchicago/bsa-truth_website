@@ -14,4 +14,8 @@ class PagesController < ApplicationController
   def sign_in
     render({ :template => "page_template/sign_in" })
   end 
+
+  def blog
+    render ({ :template => "page_template/blog" })
+  end 
 end
