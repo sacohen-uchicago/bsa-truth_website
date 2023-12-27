@@ -1,6 +1,6 @@
 class PagesController < ApplicationController
 
-  skip_before_action(:authenticate_user!, { :only => [:home, :founders, :contact, :post] })
+  skip_before_action(:authenticate_user!, { :only => [:home, :founders, :contact] })
 
   def home
     render({ :template => "page_template/home" })
@@ -18,7 +18,4 @@ class PagesController < ApplicationController
     render({ :template => "page_template/add_post" })
   end 
 
-  def post
-    render ({ :template => "page_template/post" })
-  end 
 end
