@@ -1,29 +1,19 @@
 <!DOCTYPE html>
 <html> 
-
 <head>
   <title>Bellator | Sapien | Agricola</title>
   <meta charset="utf-8">
   <%= csrf_meta_tags %>
   <%= csp_meta_tag %>
   <%= stylesheet_link_tag 'custom_4', media: 'all', 'data-turbolinks-track': 'reload' %>
-</head>
 
-<body>
+<h1>Posts</h1>
 
-  <header>
-    <h1>Blog</h1>
-  </header>
-
-  <main>
-    <!-- Your main content will go here -->
-    <!-- For example, a sign-in form or other content related to the sign-in page -->
-  </main>
-
+  <body>
   <nav class="container">
     <%= link_to 'Home', home_path, class: 'nav-link' %>
     <%= link_to 'Founders', '/founders', class: 'nav-link' %>
-    <%= link_to 'Posts', '/blog', class: 'nav-link' %>
+    <%#<%= link_to 'Sign-in', '/sign_in', class: 'nav-link' %>
     <%= link_to 'Contact', contact_path, class: 'nav-link' %>
   </nav>
 
