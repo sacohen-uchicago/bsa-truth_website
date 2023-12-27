@@ -1,8 +1,16 @@
 /* app/assets/stylesheets/custom.css */
 h1 {
-  color: Blue;
+  /* color: Blue;*/
   font-size: 100px;
   text-align: center;
+} 
+
+.bellator, .agricola {
+  color: darkred; /* Dark blood red color */
+}
+
+.sapien {
+  color: black; /* Black color */
 }
 
 h2 {
