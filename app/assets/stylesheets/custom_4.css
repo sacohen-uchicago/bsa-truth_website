@@ -1,11 +1,14 @@
+
 body {
-  margin: 75px;
-  background-color: #D3D3D3;
+  background-color: #D3D3D3; /* This is already set, but make sure it's the color you want */
+  margin: 0; /* Remove the margin to allow for full-width posts */
+  padding: 75px; /* Add padding instead of margin to keep the content from touching the edges */
 }
 
 h1, .container, a {
   color: blue;
   text-align: center;
+  padding-bottom: 50px;
 }
 
 h1 {
@@ -39,12 +42,30 @@ footer {
 h2 {
   color: darkred; 
   padding-bottom: 5px;
+  font-size: 45px;
 }
 
 h3 {
   padding-bottom: 8px;
+  font-size: 30px;
 }
 
 span {
   font-weight: bold;
+}
+
+
+
+
+/* Assuming each post is a section or article element */
+article, section {
+  margin: 20px 0; /* Add margin to the top and bottom of each post */
+}
+
+.post {
+  background-color: white; /* Set the background to white for the post */
+  padding: 20px; /* Add some padding inside the white box */
+  margin-bottom: 20px; /* Add some space between each post */
+  border-radius: 10px; /* Optional: to have rounded corners for the box */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: to add a subtle shadow to make the post "pop" */
 }
