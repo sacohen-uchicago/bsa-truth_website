@@ -34,17 +34,17 @@ h2 {
   margin-right: auto; /* Centering in the container */
 }
 
-.container {
+/* .container {
   /* Assuming container inherits font-size from body which is not explicitly set, so using rem */
-  font-size: 4.6875rem; /* 75px / 16px */
-  text-align: center;
+  /* font-size: 4.6875rem; /* 75px / 16px */
+ /* text-align: center;
   /* Margin converted to rem for top and bottom, auto left and right for centering */
-  margin: 3.125rem auto; /* 50px / 16px */
-  display: flex;
+ /* margin: 3.125rem auto; /* 50px / 16px */
+ /* display: flex;
   justify-content: center;
   gap: 3.125rem; /* 50px / 16px */
-  flex-wrap: wrap;
-}
+/*  flex-wrap: wrap;
+} */
 
 .nav-link {
   display: inline-block;
@@ -60,5 +60,3 @@ footer {
   margin-top: 3.125rem; /* 50px / 16px */
   color: darkred; 
 }
-
-/* .fix_me class was commented out, if needed, convert to em or rem based on parent font-size */
