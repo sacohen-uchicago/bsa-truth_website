@@ -1,16 +1,16 @@
 /* app/assets/stylesheets/custom.css */
 body {
-  /* padding: 75px; */
-   max-height: 80vh; /* Adjust content to not exceed the available height */
-   overflow: auto; /* Allows scrolling within the section if needed */
-   background-color: #D3D3D3;
- }
- 
+  /* Removed padding as it was commented out */
+  max-height: 80vh; /* This remains the same as it's relative to the viewport */
+  overflow: auto; /* Allows scrolling within the section if needed */
+  background-color: #D3D3D3;
+}
+
 h1 {
-  /* color: Blue;*/
-  font-size: 100px;
+  /* Assuming default root font-size of 16px for rem calculation */
+  font-size: 6.25rem; /* 100px / 16px */
   text-align: center;
-} 
+}
 
 .bellator, .agricola {
   color: darkred; /* Dark blood red color */
@@ -22,41 +22,43 @@ h1 {
 
 h2 {
   text-align: center;
-  font-size: 50px;
-  margin-bottom: 7%;
+  font-size: 3.125rem; /* 50px / 16px */
+  margin-bottom: 7%; /* Percentage values are resolution-independent */
 }
 
 .bsa-logo {
-  width: 300px;
+  width: 18.75rem; /* 300px / 16px */
   height: auto;
   display: block;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto; /* Centering in the container */
 }
 
 .container {
-  font-size: 75px;
+  /* Assuming container inherits font-size from body which is not explicitly set, so using rem */
+  font-size: 4.6875rem; /* 75px / 16px */
   text-align: center;
-  margin: 50px auto; /* Center the container */
-  display: flex; /* Use flexbox to layout links */
-  justify-content: center; /* Center flex items horizontally */
-  gap: 50px; /* Add space between flex items */
-  flex-wrap: wrap; /* Allow items to wrap to a new line if necessary */
+  /* Margin converted to rem for top and bottom, auto left and right for centering */
+  margin: 3.125rem auto; /* 50px / 16px */
+  display: flex;
+  justify-content: center;
+  gap: 3.125rem; /* 50px / 16px */
+  flex-wrap: wrap;
 }
 
 .nav-link {
   display: inline-block;
-  border: 1px solid black;
-  margin: 0 25px;
+  /* Border width is small and typically left as px to ensure visibility */
+  border: 0.0625rem solid black; /* 1px / 16px */
+  margin: 0 1.5625rem; /* 25px / 16px */
   text-decoration: none;
   color: blue;
 }
 
 footer {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 3.125rem; /* 50px / 16px */
   color: darkred; 
 }
 
-/* .fix_me {
-  margin: 85px;
-} */
+/* .fix_me class was commented out, if needed, convert to em or rem based on parent font-size */

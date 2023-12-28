@@ -1,8 +1,8 @@
 body {
- /* padding: 75px; */
-max-height: 80vh; /* Adjust content to not exceed the available height */
-overflow: auto; /* Allows scrolling within the section if needed */
-background-color: #D3D3D3;
+  /* padding: 75px; was commented out */
+  max-height: 80vh; /* vh units are relative to the viewport height and do not need conversion */
+  overflow: auto; /* Allows scrolling within the section if needed */
+  background-color: #D3D3D3;
 }
 
 h1, .container, a {
@@ -10,37 +10,32 @@ h1, .container, a {
   text-align: center;
 }
 
-.nav-link {
-  display: inline-block;
-  border: 1px solid black;
-  padding: 5px;
-  margin: 0 25px;
-  text-decoration: none;
-  color: blue;
-}
-
+/* Assuming a base font-size of 16px for rem calculations */
 h1 {
-  font-size: 100px;
+  font-size: 6.25rem; /* 100px / 16px */
 }
 
 .container {
-  font-size: 75px;
+  font-size: 4.6875rem; /* 75px / 16px */
   text-align: center;
-  margin: 50px auto; /* Center the container */
-  display: flex; /* Use flexbox to layout links */
-  justify-content: center; /* Center flex items horizontally */
-  gap: 50px; /* Add space between flex items */
-  flex-wrap: wrap; /* Allow items to wrap to a new line if necessary */
+  margin: 3.125rem auto; /* 50px / 16px */
+  display: flex;
+  justify-content: center;
+  gap: 3.125rem; /* 50px / 16px */
+  flex-wrap: wrap;
 }
 
 .nav-link {
-  border: 1px solid black;
+  display: inline-block;
+  border: 0.0625rem solid black; /* 1px / 16px */
+  padding: 0.3125rem; /* 5px / 16px */
+  margin: 0 1.5625rem; /* 25px / 16px */
   text-decoration: none;
   color: blue;
-  white-space: nowrap; /* Prevent text from wrapping */
+  white-space: nowrap;
 }
 
 footer {
   text-align: center;
-  margin-top: 50px; /* Add space above the footer */
+  margin-top: 3.125rem; /* 50px / 16px */
 }

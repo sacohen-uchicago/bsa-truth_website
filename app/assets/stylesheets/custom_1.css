@@ -1,24 +1,22 @@
 /* Place your styles in app/assets/stylesheets/custom.css */
 body {
- /* padding: 75px; */
- max-height: 80vh; /* Adjust content to not exceed the available height */
- overflow: auto; /* Allows scrolling within the section if needed */
- background-color: #D3D3D3;
+  /* Removed padding as it was commented out */
+  max-height: 80vh; /* This remains the same as it's relative to the viewport */
+  overflow: auto; /* Allows scrolling within the section if needed */
+  background-color: #D3D3D3;
 }
 
 .headshot {
-
-   width: 300px;
+  width: 18.75rem; /* 300px / 16px */
   height: auto;
-
-    object-fit: cover; /* This will cover the area without stretching the image */
-    border-radius: 5%; /* Optional: if you want rounded images */  
+  object-fit: cover; /* This will cover the area without stretching the image */
+  border-radius: 5%; /* This is a percentage and is fine as it is */
 }
 
 .nav-link {
   display: inline-block;
-  border: 1px solid black;
-  margin: 0 25px;
+  border: 0.0625rem solid black; /* 1px / 16px */
+  margin: 0 1.5625rem; /* 25px / 16px */
   text-decoration: none;
   color: blue;
 }
@@ -26,48 +24,48 @@ body {
 .founders-container {
   display: flex;
   align-items: center;
-  margin: 100px;
+  margin: 6.25rem; /* 100px / 16px */
 }
 
 .founders-info {
-  margin-left: 20px;
+  margin-left: 1.25rem; /* 20px / 16px */
   flex-grow: 1;
 }
 
 .container {
-  font-size: 75px;
+  font-size: 4.6875rem; /* 75px / 16px */
   text-align: center;
-  margin: 50px auto; /* Center the container */
-  display: flex; /* Use flexbox to layout links */
-  justify-content: center; /* Center flex items horizontally */
-  gap: 50px; /* Add space between flex items */
-  flex-wrap: wrap; /* Allow items to wrap to a new line if necessary */
+  margin: 3.125rem auto; /* 50px / 16px */
+  display: flex;
+  justify-content: center;
+  gap: 3.125rem; /* 50px / 16px */
+  flex-wrap: wrap;
 }
 
 h1 {
-  font-size: 100px;
+  font-size: 6.25rem; /* 100px / 16px */
   text-align: center;
   color: blue;
-  margin-bottom: 100px;
+  margin-bottom: 6.25rem; /* 100px / 16px */
 }
 
 .linkedin {
   color: blue;
-  font-size: 20px;
-  margin: 20px;
+  font-size: 1.25rem; /* 20px / 16px */
+  margin: 1.25rem; /* 20px / 16px */
 }
 
 footer {
   text-align: center;
-  color: darkred; 
+  color: darkred;
 }
 
 h2 {
-  font-size: 40px;
-  }
+  font-size: 2.5rem; /* 40px / 16px */
+}
 
 p {
-  font-size: 25px;
+  font-size: 1.5625rem; /* 25px / 16px */
   text-align: justify;
 }
 
@@ -75,13 +73,13 @@ p {
   display: inline-block;
   background-color: #0077B5;
   color: white;
-  padding: 10px 15px;
+  padding: 0.625rem 0.9375rem; /* 10px / 16px and 15px / 16px */
   border-radius: 5px;
   text-align: center;
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.125rem 0.1875rem rgba(0, 0, 0, 0.2); /* 2px / 16px and 3px / 16px */
   text-decoration: none;
 }
 
 .linkedin-button i {
-  margin-right: 5px;
+  margin-right: 0.3125rem; /* 5px / 16px */
 }
