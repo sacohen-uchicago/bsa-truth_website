@@ -1,4 +1,11 @@
 /* app/assets/stylesheets/custom.css */
+body {
+  /* padding: 75px; */
+   max-height: 80vh; /* Adjust content to not exceed the available height */
+   overflow: auto; /* Allows scrolling within the section if needed */
+   background-color: #D3D3D3;
+ }
+ 
 h1 {
   /* color: Blue;*/
   font-size: 100px;
@@ -48,13 +55,6 @@ footer {
   text-align: center;
   margin-top: 50px;
   color: darkred; 
-}
-
-body {
- /* padding: 75px; */
-  max-height: 80vh; /* Adjust content to not exceed the available height */
-  overflow: auto; /* Allows scrolling within the section if needed */
-  background-color: #D3D3D3;
 }
 
 .fix_me {
