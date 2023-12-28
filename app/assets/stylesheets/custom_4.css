@@ -1,8 +1,12 @@
 
 body {
-  background-color: #D3D3D3; /* This is already set, but make sure it's the color you want */
-  margin: 0; /* Remove the margin to allow for full-width posts */
-  padding: 75px; /* Add padding instead of margin to keep the content from touching the edges */
+  /*background-color: #D3D3D3; /* This is already set, but make sure it's the color you want */
+  /*margin: 0; /* Remove the margin to allow for full-width posts */
+  /* padding: 75px; /* Add padding instead of margin to keep the content from touching the edges */
+  /* padding: 75px; */
+max-height: 80vh; /* Adjust content to not exceed the available height */
+overflow: auto; /* Allows scrolling within the section if needed */
+background-color: #D3D3D3;
 }
 
 h1, .container, a {
@@ -64,8 +68,8 @@ article, section {
 
 .post {
   background-color: white; /* Set the background to white for the post */
-  padding: 20px; /* Add some padding inside the white box */
-  margin-bottom: 20px; /* Add some space between each post */
+  padding: 30px; /* Add some padding inside the white box */
+  margin: 50px; /* Add some space between each post */
   border-radius: 10px; /* Optional: to have rounded corners for the box */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: to add a subtle shadow to make the post "pop" */
 }
