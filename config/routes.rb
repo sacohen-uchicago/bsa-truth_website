@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   get 'home', to: 'pages#home'
   get 'founders', to: 'pages#founders'
   get 'contact', to: 'pages#contact'
+  get 'books', to: 'pages#books'
 
   get 'add_post', to: 'pages#add_post'
 

@@ -14,6 +14,10 @@ class PagesController < ApplicationController
     render({ :template => "page_template/contact" })
   end
 
+  def books
+    render ({ :template => "page_template/books" })
+  end 
+
   def add_post
     render({ :template => "page_template/add_post" })
   end 

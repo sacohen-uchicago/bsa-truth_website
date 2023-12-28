@@ -1,0 +1,76 @@
+body {
+  max-height: 80vh; /* This remains relative to the viewport height */
+  overflow: auto; /* Allows scrolling within the section if needed */
+  background-color: #D3D3D3;
+}
+
+h1, .container, a {
+  color: blue;
+  text-align: center;
+  padding-bottom: 3.125rem; /* 50px / 16px */
+}
+
+h1 {
+  font-size: 6.25rem; /* 100px / 16px */
+}
+
+.nav-link {
+  display: inline-block;
+  border: 0.0625rem solid black; /* 1px / 16px */
+  margin: 0 1.5625rem; /* 25px / 16px */
+  text-decoration: none;
+  color: blue;
+}
+
+/* Center the container of the post and any other flex items if necessary */
+.container {
+  display: flex; /* Use flex to layout child elements */
+  justify-content: center; /* Center children horizontally */
+  align-items: center; /* Center children vertically if needed */
+  flex-direction: column; /* Stack children vertically */
+  margin: 3.125rem auto; /* Vertical margin with auto horizontal margins for centering */
+  gap: 3.125rem; /* Gap between items */
+  flex-wrap: wrap; /* Allow items to wrap to a new line if necessary */
+}
+
+footer {
+  text-align: center;
+  margin-top: 3.125rem; /* 50px / 16px */
+  color: darkred;
+}
+
+h2 {
+  color: darkred;
+  padding-bottom: 0.3125rem; /* 5px / 16px */
+  font-size: 2.8125rem; /* 45px / 16px */
+}
+
+h3 {
+  padding-bottom: 0.5rem; /* 8px / 16px */
+  font-size: 1.875rem; /* 30px / 16px */
+}
+
+span {
+  font-weight: bold;
+}
+
+/* Assuming each post is a section or article element */
+article, section {
+  margin: 1.25rem 0; /* 20px / 16px */
+}
+
+.post {
+  background-color: white;
+  padding: 1.875rem; /* 30px / 16px */
+  margin-left: auto; /* Horizontally center the box */
+  margin-right: auto; /* Horizontally center the box */
+  border-radius: 10px; /* Rounded corners are a stylistic choice and do not need conversion */
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1); /* 4px and 8px converted to rem */
+  display: block; /* This will allow margin auto to work for horizontal centering */
+  width: fit-content; /* This will make the box as wide as its content */
+  max-width: 100%; /* Ensure it doesn't exceed the width of its container */
+}
+
+li {
+  margin: 1rem;
+}
